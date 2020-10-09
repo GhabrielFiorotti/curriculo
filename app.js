@@ -22,6 +22,10 @@ router.get('/curr2', function(req, res){
   res.sendFile(path.join(__dirname+'/curriculo2.html'));
 });
 
+router.get('/img', function(req,res){
+  res.json({url_img : "https://curriculoghabriel.herokuapp.com/img/foto.jpg"})
+});
+
 app.use('/', router);
 app.listen(PORT);
 
