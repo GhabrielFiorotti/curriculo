@@ -1,20 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acesso a arquivos</title>
-    <base href="/">
-    <link rel="stylesheet" href="css/style.css">
-    
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>Currículo Profissional</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(img/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { font-size: 30px !important;  margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 18px !important; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color:black; text-decoration: none; text-decoration:none; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
 </head>
 
 <body>
-    <div class="container">
-        <h3>Escolha uma opção abaixo</h3>
-        <a href="./curr" class="botao">Meu currículo (HTML PURO)</a>
+
+    <div id="page-wrap">
+    
+        <img src="img/foto.jpg" height="25%" width="25%" alt="Photo of Cthulu" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Ghabriel Schiffelbein Fiorotti</h1>
+        
+            <p>
+                <strong> Celular:</strong> <span class="tel">2799654-6441</span><br />
+                <strong> Email:</strong>: <a target="_blank" href="gmail.com.br">gfiorotti111@gmail.com</a><br>
+                <strong> Data de Nascimento:</strong> <span class="tel">21/01/2001</span><br />
+                <strong> CEP:</strong><span class="tel">29165-757</span><br />
+                <strong> Endereço:</strong> <span class="tel">Rua dos Ipês 312, Santa Luzia, Serra - ES</span><br />
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                Eu sou uma pessoa muito educada, que sabe lidar com os objetivos propostos, sendo sempre efetivo. Além disso, possuo uma grande facilidade em aquisição de conhecimento, sendo curioso e saber realmente como tudo funciona. 
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Educação</dt>
+            <dd>
+                <h2>IFES - Campus Santa Teresa</h2>
+                <p><strong>Curso:</strong> Técnico em Agropecuária<br />
+                   <strong>Ensino médio</strong> Completo</p>
+            </dd>
+            <dd>
+                <h2>Universidade do Centro Leste - Faculdade UCL</h2>
+                <p><strong>Graduação:</strong> Sistema de Informação<br />
+                <strong>Período:</strong> 4º período</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Node JS</h2>
+                <p>Desenvolvimento de sistemas web e de API's utilizando o framework proposto</p>
+                
+                <h2>Infraestrutura</h2>
+                <p>Manutenção de computadores</p>
+
+                <h2>PHP</h2>
+                <p>Desenvolvimento de API's</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experiência profissional</dt>
+            <dd>
+                <h2>Cooperavi <span>Itarana, ES - 06/2018 até 07/2018</span></h2>
+                <ul>
+                    <li>Função: Estagiário</li>
+                    <li>Criação de funções buscadas na WEB em PHP puro</li>
+                    <li>Banco de dados MySQL</li>
+                    <li>Criação de sistemas WEB utilizando o framework Laravel</li>
+                </ul>
+
+                <h2>Alertrack <span>Jacaraipe, Serra ES - 07/2019 até 11/2019</span></h2>
+                <ul>
+                    <li>Função: Estagiário</li>
+                    <li>Criação de funções buscadas na WEB em PHP puro</li>
+                    <li>Banco de dados MySQL</li>
+                    <li>Criação de sistemas WEB utilizando o framework Laravel</li>
+                </ul>
+                
+                <h2>Grupo SEI <span>Colina de Laranjeiras, Serra ES - 11/2019 até o momento</span></h2>
+                <ul>
+                    <li>Função: Estagiário</li>
+                    <li>Manutenção de computadores</li>
+                    <li>Infraestrutura em geral</li>
+                    <li>Telefonia</li>
+                </ul> 
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Conhecimentos:</dt>
+            <dd>
+            <ul>
+                <li>Node JS e JavaScript puro</li>
+                <li>HTML + CSS</li>
+                <li>Laravel Básico</li>
+                <li>Banco de Dados MySQL e SQL Server</li>
+                <li>Git</li>
+            </ul> 
+            </dd>
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
     </div>
+
 </body>
 
 </html>
